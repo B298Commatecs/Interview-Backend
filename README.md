@@ -64,6 +64,7 @@ Ref: receipt.client_key > client.id
     - DELETE DeleteClient (int id).
 - Authentication
     - Use whatever you like and make it simple
+- Extra APIs (feel free to add any extra api)
 
 
 ### 🧮 Calculation
@@ -85,6 +86,13 @@ There is two main types of receipts `['return', 'sales']` when user submit new r
     - User can return more than one time as long as the sales receipt have enough quantity 
     - When client is linked with the receipt subtract the `total_amount` from the `client.total_purchase`
 
+### ℹ Info
+- Use dotnet 7.0 or higher
+- Use Mssql or sql for backend
+- Don't use AutoMapper or any other alternative only manual mapping (for this task only)
+- Using a custom Authentication System is a Plus
+- Adding simple reporting system is a Plus
+
 ### 💡 Keep in mind
 The target of this Task is measure the quality of the code not the time (take your time)👍
 
@@ -92,6 +100,6 @@ Clean and will commented code is a top priority, the fast code is useless when n
 
 You don't have to make storage system we removed it from the task to save some time 😉
 
-Feel free to dm me anytime for help or task explanation 🤓
+Feel free to dm me anytime for help or task explanation 🤓 
 
 Keep an eye on the repository for any updates on the README
