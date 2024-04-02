@@ -96,7 +96,7 @@ There is two main types of receipts `['return', 'sales']` when user submit new r
 ### 💡 Keep in mind
 The target of this Task is measure the quality of the code not the time (take your time)👍
 
-Clean and will commented code is a top priority, the fast code is useless when no one understands what the hell is going 😅
+Clean and will commented code is a top priority, the fast code is useless when no one understands what is going 😅
 
 You don't have to make storage system we removed it from the task to save some time 😉
 
